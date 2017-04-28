@@ -1,4 +1,0 @@
-#lang racket
-
-(string-append "Ada" " " "Lovelace")
-(string-length "apple"
