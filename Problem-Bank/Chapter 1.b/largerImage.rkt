@@ -4,7 +4,7 @@
 (require 2htdp/image)
 
 ;; Image, Image -> Boolean
-;; returns true of first image is larger (width and height is greater) than the second image
+;; returns true if first image is larger (width and height is greater) than the second image
 
 (check-expect (larger-image? (rectangle 20 30 "solid" "red") (rectangle 20 30 "solid" "green")) #f)
 (check-expect (larger-image? (rectangle 20 30 "solid" "red") (rectangle 20 20 "solid" "green")) #f)
